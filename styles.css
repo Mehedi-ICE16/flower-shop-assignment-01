@@ -227,36 +227,44 @@
 
 /* Section5 */
 .sec5-container{
-    border-radius: 8px;
-    background: url('../flower asset/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
-    margin: 10px;
+    border-radius: 2px;
+    background: url('../flower asset/Rectangle\ 9.png'), lightgray no-repeat;
+    margin: 5px;
 }
 .sec5-title{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
 }
 .sec5-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 .sec5-sub-container{
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 .sec5-sub-container .input{
     border-radius: 8px;
+    border: 0;
     background: #FFF;
-    width: 70%;
+    margin-left: 400px;
+    padding: 20px 0px 0px 10px;
 }
 .sec5-btn{
     text-align: center;
@@ -271,7 +279,50 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 30%
+    width: 40%
 }
-
+/* Footer Part design */
+.foot{
+    background: #111010;
+    align-items: center;
+}
+.foot-title{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.foot-title .part2{
+    color:#FFF;
+}
+.foot-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 5px 200px 5px 200px;
+    padding: 5px 200px 5px 200px;
+}
+.foot-end{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+}
 
